@@ -9,8 +9,8 @@ Finder Pro is plugin, which allows to work with standard Unity explorer more con
 ## Usage
 
 1. Get the _.unitypackage_ from [Releases](https://github.com/mrfrayfeed/FinderPro/releases/) or clone this repository and create your own.
-2. In Unity choose _Assets -> Import Package... -> Custom Package..._ and select the appropriate _.unitypackage_
-3. Next step _Window -> FinderPro_ player click right in the Hierarchy panel and choose Video -> Video Player with Controls
+2. In Unity choose _Assets -> Import Package... -> Custom Package..._ and select the appropriate _.unitypackage_.
+3. To start usage _Window -> FinderPro_.
 
 ## License
 
