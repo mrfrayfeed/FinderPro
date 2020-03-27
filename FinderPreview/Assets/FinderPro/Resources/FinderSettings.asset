@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3c9aad1332e834897e74d41635889e, type: 3}
+  m_Name: FinderSettings
+  m_EditorClassIdentifier: 
+  ingoreTypes:
+  - displayName: Object
+    fullName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 1
+  - displayName: QualitySettings
+    fullName: UnityEngine.QualitySettings, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 1
+  - displayName: VFXManager
+    fullName: UnityEngine.Experimental.VFX.VFXManager, UnityEngine.VFXModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: 
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 0
+  - displayName: StyleSheet
+    fullName: UnityEngine.UIElements.StyleSheet, UnityEngine.UIElementsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: .uss
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 1
+  - displayName: VisualTreeAsset
+    fullName: UnityEngine.UIElements.VisualTreeAsset, UnityEngine.UIElementsModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    extension: .uxml
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 0
+  - displayName: MonoScript
+    fullName: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .cs
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 0
+  - displayName: DefaultAsset
+    fullName: UnityEditor.DefaultAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: 
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 1
+  - displayName: PresetManager
+    fullName: UnityEditor.Presets.PresetManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: PlayerSettings
+    fullName: UnityEditor.PlayerSettings, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: EditorBuildSettings
+    fullName: UnityEditor.EditorBuildSettings, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: EditorSettings
+    fullName: UnityEditor.EditorSettings, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: PhysicsManager
+    fullName: UnityEditor.PhysicsManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: AudioManager
+    fullName: UnityEditor.AudioManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: InputManager
+    fullName: UnityEditor.InputManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: GraphicsSettings
+    fullName: UnityEngine.Rendering.GraphicsSettings, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: TagManager
+    fullName: UnityEditor.TagManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: TimeManager
+    fullName: UnityEditor.TimeManager, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: Physics2DSettings
+    fullName: UnityEditor.Physics2DSettings, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: Physics2DSettings
+    fullName: UnityEditor.Physics2DSettings, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: 
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: AssemblyDefinitionAsset
+    fullName: UnityEditorInternal.AssemblyDefinitionAsset, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: .asmdef
+    useStandartIcon: 0
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: UnityConnectSettings
+    fullName: UnityEngine.Connect.UnityConnectSettings, UnityEngine.UnityConnectModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    extension: 
+    useStandartIcon: 1
+    isIgnored: 1
+    isCreatable: 0
+  - displayName: FinderSettings
+    fullName: Finder.FinderSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .asset
+    useStandartIcon: 0
+    isIgnored: 0
+    isCreatable: 1
+  findTypes:
+  - displayName: ScriptableObject
+    fullName: UnityEngine.ScriptableObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    extension: 
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 1
+  - displayName: Texture
+    fullName: UnityEngine.Texture, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: 
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 0
+  - displayName: Texture2D
+    fullName: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .png
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 0
+  - displayName: GameObject
+    fullName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .prefab
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 1
+  - displayName: Scene
+    fullName: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    extension: .unity
+    useStandartIcon: 1
+    isIgnored: 0
+    isCreatable: 1
